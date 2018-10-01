@@ -1,0 +1,88 @@
+The Transformation is an effect that lets an element to change its shape , size and position 
+For CSS Transformation we use the property called ‘transform’
+The transform property allows us to visually manipulate an element by skewing, rotating, Translating or Scaling.
+CSS3 Supports 2D and 3D Transforms
+
+translateX()
+------------
+The translateX() method moves an element along X-axis by the given parameters.
+
+Ex: transform: translateX(10px);
+
+translateY()
+------------
+The translateY() method moves an element along Y-axis by the given parameters.
+
+Ex: transform: translateY(10px);
+
+translate()
+-----------
+The translate() method moves an element along X-axis and Y-axis by the given parameters.
+
+Ex: transform: translate(10px,20px);
+
+scaleX()
+--------
+The scaleX() method is used to increase or decrease the size of an element using the provided parameters.
+
+Ex: transform:scaleX(2); (Increases width 2 times)
+
+scaleY()
+--------
+The scaleY() method is used to increase or decrease the size of an element along Y-axis.
+
+Ex: transform:scaleY(2); (Increases height 2 times)
+
+scale()
+-------
+the scale() method is used to increase or decrease the size of an element along both X-axis and Y-axis.
+Ex: transform:scale(2,3);
+
+scale value    effect
+-----------    --------
+   <1           decreases
+   >1           Increases
+   =1           No Change
+
+skewX()
+-------
+-> the skewX() method is used to skew an element along the X-axis by the given parameters.
+
+Ex: transform:skewX(45deg);
+
+skewY()
+-------
+-> The skewY() method is used to skews an element along the Y-axis by the given parameters.
+
+Ex: transform:skewY(45deg);
+
+skew()
+-------
+-> The skew() method is used to skew an element along the X-axis and Y-axis by the given parameters.
+
+Ex: transform:skew(45deg,45deg);
+
+Shortcut Property(method)
+-------------------------
+
+matrix()
+--------
+This method is a shortcut for all the above 2D transform methods.
+-> In this method we will combine all the 2D transform methods using a mathematical funciton.
+
+Syntax:
+
+transform: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY());
+
+rotate()
+---------
+-> The rotate() method is used to rotate an element in clock wise or counter clockwise based on the given parameters.
+-> If we provide the +ve degrees it rotates in the clockwise , if we provide the -ve degrees it rotates in anti clockwise.
+
+Ex: transform:rotate(45deg);
+
+CSS 3D Transformation
+---------------------
+-> 
+
+
