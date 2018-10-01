@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Dropdown Navbar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        nav{
+            background: white url("img/image5.jpeg") no-repeat scroll bottom;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 12px 25px;
+            display: inline-block;
+        }
+        nav ul li a:hover{
+            background-color: rgba(180,180,180,0.5);
+        }
+        .dropdown_list{
+            background: white url("img/image5.jpeg") no-repeat scroll bottom;
+            position: absolute;
+            display: none; /* to hide this */
+        }
+        .dropdown_list a{
+            display: block;
+        }
+        .dropdown:hover .dropdown_list{
+            display: block;
+        }
+    </style>
+</head>
+<body>
