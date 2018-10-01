@@ -1,0 +1,28 @@
+-> CSS3 transitions allows Us to change property values smoothly (from one value to another), over a given duration.
+
+-> To create a transition effect, we must specify two things, such as
+
+  1) The CSS property We wants to add an effect
+  2) The duration of the effect
+  
+-> For this CSS transition we use a property called 'transition'.
+
+-> The CSS Transition following properties.
+
+transition-name -> indicates the name of the transition
+
+transition-duration -> indicates the duration of the transition in seconds or milliSeconds.
+
+transition-delay -> to delay the transition in the specified number of seconds or milliSeconds.
+
+transition-timing-function -> indicates the timing-function of the transition effect.
+-> This property contains the following values,
+
+linear -> slow start , slow end
+ease-in -> slow start , fast end
+ease-out -> fast start , slow end
+ease-in-out -> fast start , fast end
+
+
+
+
