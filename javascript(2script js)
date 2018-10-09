@@ -1,0 +1,28 @@
+//Alert Box
+//alert('Welcome to JS');
+
+// confirm Box
+//confirm('Welcome to JavaScript');
+
+// console log
+console.log('Good Morning JS');
+
+// Display date on the console
+var date = new Date().toLocaleDateString();
+console.log(date);
+
+// Display date on the web page using DOM
+document.querySelector('#display').textContent = date;
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
